@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<production>
+    <!--production T1 details-->
+    <productionPlant>
+        <id>1</id>
+        <catalog>T-shirts</catalog>
+        <sex>men</sex>
+        <name>Armani Jeans Crew Neck Gradient T Shirt White</name>
+        <imageS>Armani Jeans Crew Neck Gradient T Shirt White_S.jpg</imageS>
+        <imageL>Armani Jeans Crew Neck Gradient T Shirt White_L.jpg</imageL>
+        <brand>Armani</brand>
+        <price>70</price>
+        <details>Armani Jeans Crew Neck Gradient T Shirt In White, A classic t shirt with a ribbed crew neckline and short sleeves. An overall dip dye effect gradient design in white and navy</details>
+        <material>100% Cotton</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production T2 details-->
+    <productionPlant>
+        <id>2</id>
+        <catalog>T-shirts</catalog>
+        <sex>men</sex>
+        <name>Armani Jeans Logo Crew Neck T Shirt Blue</name>
+        <imageS>Armani Jeans Logo Crew Neck T Shirt Blue_S.jpg</imageS>
+        <imageL>Armani Jeans Logo Crew Neck T Shirt Blue_L.jpg</imageL>
+        <brand>Armani</brand>
+        <price>50</price>
+        <details>Armani Jeans Logo Crew Neck T Shirt In Night Blue, A ribbed crew neckline and short sleeves. A large signature Armani Jeans logo design is printed on the chest in blue and white</details>
+        <material>100% Cotton</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production T3 details-->
+    <productionPlant>
+        <id>3</id>
+        <catalog>T-shirts</catalog>
+        <sex>men</sex>
+        <name>Versace Jeans Logo T Shirt Blue</name>
+        <imageS>Versace Jeans Logo T Shirt Blue_S.jpg</imageS>
+        <imageL>Versace Jeans Logo T Shirt Blue_L.jpg</imageL>
+        <brand>Versace</brand>
+        <price>100</price>
+        <details>Versace Jeans Logo T Shirt In Blue, Regular Fit. A classic cotton t shirt with a ribbed crew neck and short sleeves. The front of the body has repeated Versace Jeans logos printed in silver. Top stitching in blue</details>
+        <material>100% Cotton</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production 4 details-->
+    <productionPlant>
+        <id>4</id>
+        <catalog>T-shirts</catalog>
+        <sex>men</sex>
+        <name>Versace Jeans Printed T Shirt Green</name>
+        <imageS>Versace Jeans Printed T Shirt Green_S.jpg</imageS>
+        <imageL>Versace Jeans Printed T Shirt Green_L.jpg</imageL>
+        <brand>Versace</brand>
+        <price>150</price>
+        <details>Versace Jeans Printed T Shirt In Turquoise Green, Slim Fit. Allover baroque and animal print in turquoise green, blue, black and yellow with a ribbed crew neck in black and short sleeves. A signature Versace Jeans logo is printed on the chest in black</details>
+        <material>95% Cotton And 5% Elastane</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production T5 details-->
+    <productionPlant>
+        <id>5</id>
+        <catalog>T-shirts</catalog>
+        <sex>men</sex>
+        <name>Columbian-fit Hawaii print T-shirt</name>
+        <imageS>Columbian-fit Hawaii print T-shirt_S.jpg</imageS>
+        <imageL>Columbian-fit Hawaii print T-shirt_L.jpg</imageL>
+        <brand>Armani</brand>
+        <price>1000</price>
+        <details>This multicolour blue Hawaii print T-shirt depicts the image of a windswept sea and sinking ship</details>
+        <material>100% Cotton</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production S1 details-->
+    <productionPlant>
+        <id>6</id>
+        <catalog>Shirts</catalog>
+        <sex>men</sex>
+        <name>Armani Collezioni Long Sleeved Check Shirt Navy</name>
+        <imageS>Armani Collezioni Long Sleeved Check Shirt Navy_S.jpg</imageS>
+        <imageL>Armani Collezioni Long Sleeved Check Shirt Navy_L.jpg</imageL>
+        <brand>Armani</brand>
+        <price>200</price>
+        <details>Armani Collezioni Long Sleeved Check Shirt In Navy, An overall woven gingham check design in navy and white on a textured seersucker fabric. A full front grey pearlescent Armani Collezioni logo embossed button opening with a standard shirt collar and adjustable button fastening cuffs on the long sleeves</details>
+        <material>100% Cotton</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production S2 details-->
+    <productionPlant>
+        <id>7</id>
+        <catalog>Shirts</catalog>
+        <sex>men</sex>
+        <name>Versace Collezioni Long Sleeved Check Shirt Navy</name>
+        <imageS>Versace Collezioni Long Sleeved Check Shirt Navy_S.jpg</imageS>
+        <imageL>Versace Collezioni Long Sleeved Check Shirt Navy_L.jpg</imageL>
+        <brand>Versace</brand>
+        <price>200</price>
+        <details>Versace Collezioni Long Sleeved Check Shirt In Navy, An overall woven gingham check design in navy and white on a textured seersucker fabric. A full front grey pearlescent Versace Collezioni logo embossed button opening with a standard shirt collar and adjustable button fastening cuffs on the long sleeves</details>
+        <material>100% Cotton</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production S3 details-->
+    <productionPlant>
+        <id>8</id>
+        <catalog>Shirts</catalog>
+        <sex>men</sex>
+        <name>Versace Jeans Long Sleeved Shirt Black</name>
+        <imageS>Versace Jeans Long Sleeved Shirt Black_S.jpg</imageS>
+        <imageL>Versace Jeans Long Sleeved Shirt Black_L.jpg</imageL>
+        <brand>Versace</brand>
+        <price>200</price>
+        <details>Versace Jeans Long Sleeved Shirt In Black, Slim Fit. A full front black Versace Jeans button fastening with a dark metal Versace Jeans Tiger logo top button. A standard shirt collar with button fastening cuffs on the long sleeves. The front of the shirt features an overall Versace Jeans Tiger logo design in white</details>
+        <material>96% Cotton And 4% Elastane</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production P1 details-->
+    <productionPlant>
+        <id>9</id>
+        <catalog>Pants</catalog>
+        <sex>men</sex>
+        <name>Jack Honey Newbill Comfort Fit Jeans Blue</name>
+        <imageS>Jack Honey Newbill Comfort Fit Jeans Blue_S.jpg</imageS>
+        <imageL>Jack Honey Newbill Comfort Fit Jeans Blue_L.jpg</imageL>
+        <brand>Jack Honey</brand>
+        <price>170</price>
+        <details>Jack Honey Newbill Comfort Fit Forever Dark Jeans In An 11oz Dark Indigo Blue Stretch Denim, A full black and dark metal Jack Honey logo embossed button fly with six large belt loops on the waistband</details>
+        <material>100% Cotton</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production P2 details-->
+    <productionPlant>
+        <id>10</id>
+        <catalog>Pants</catalog>
+        <sex>men</sex>
+        <name>Carlo Bruni Waitom Regular Slim Fit Jeans Blue</name>
+        <imageS>Carlo Bruni Waitom Regular Slim Fit Jeans Blue_S.jpg</imageS>
+        <imageL>Carlo Bruni Waitom Regular Slim Fit Jeans Blue_L.jpg</imageL>
+        <brand>Jack Honey</brand>
+        <price>115</price>
+        <details>Carlo Bruni Waitom Regular Slim Fit Jeans In An 11.5oz Deep Blue Denim, Intentional fading to typical stress points with intentional crease effect to the thighs, waistband and reverse of the knees</details>
+        <material>100% Cotton</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+</production>
