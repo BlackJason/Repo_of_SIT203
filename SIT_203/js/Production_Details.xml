@@ -173,7 +173,7 @@
     <!--production A1 details-->
     <productionPlant>
         <id>11</id>
-        <catalog>Bag</catalog>
+        <catalog>Bags</catalog>
         <sex>men</sex>
         <name>Armani Jeans Small Shoulder Bag Blue</name>
         <imageS>Armani Jeans Small Shoulder Bag Blue_S.jpg</imageS>
@@ -184,7 +184,24 @@
         <material>100% Polyester</material>
         <care>Hand wash</care>
         <fit>The bag measures 8 inches in width and 8.5 inches in height</fit>
-        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+        <size>The bag measures 8 inches in width and 8.5 inches in height</size>
+    </productionPlant>
+
+    <!--production A2 details-->
+    <productionPlant>
+        <id>12</id>
+        <catalog>Belts</catalog>
+        <sex>men</sex>
+        <name>Armani Exchange Reversible Belt Black</name>
+        <imageS>Armani Exchange Reversible Belt Black_S.jpg</imageS>
+        <imageL>Armani Exchange Reversible Belt Black_S.jpg</imageL>
+        <brand>Armani</brand>
+        <price>100</price>
+        <details>Armani Exchange Reversible Leather Belt In Black And Phantom Grey, A genuine leather belt strap with one side in black and the alternative side in phantom dark grey. Five holes at the squared end and a dark metal AX logo buckle. </details>
+        <material>100% Genuine Leather</material>
+        <care>100% Genuine Leather</care>
+        <fit>36” Waist</fit>
+        <size>36” Waist</size>
     </productionPlant>
 
 </production>
