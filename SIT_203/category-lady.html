@@ -32,7 +32,9 @@
     <!-- your stylesheet with modifications -->
     <link href="css/custom.css" rel="stylesheet">
 
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/respond.min.js"></script>
+    <script src="js/myFunctions.js"></script>
 
     <link rel="shortcut icon" href="favicon.png">
 
@@ -137,12 +139,13 @@
                                         <div class="col-sm-6"> <!-- col-sm-3 is changed to col-sm-6 by Shang-->
                                             <h5>Clothing</h5>
                                             <ul>
-                                                <li><a href="category-man.html">T-shirts</a>
+                                                <!--All href changed by rongjuncheng 9/08/2017-->
+                                                <li><a href="category-man.html?item=T-shirts">T-shirts</a>
                                                 </li>
-                                                <li><a href="category-man.html">Shirts</a>
-                                                </li>												
-                                                <li><a href="category-man.html">Pants</a>
-                                                </li>												
+                                                <li><a href="category-man.html?item=Shirts">Shirts</a>
+                                                </li>
+                                                <li><a href="category-man.html?item=Pants">Pants</a>
+                                                </li>
                                                 <!--
 												<li><a href="category-man.html">Accessories</a>
                                                 </li>
@@ -165,9 +168,10 @@
                                         <div class="col-sm-6"> <!-- col-sm-3 is changed to col-sm-6 by Shang-->
                                             <h5>Accessories</h5>
                                             <ul>
-                                                <li><a href="category-man.html">Bags</a>
+                                                <!--All href changed by rongjuncheng 9/08/2017-->
+                                                <li><a href="category-man.html?item=Bags">Bags</a>
                                                 </li>
-                                                <li><a href="category-man.html">Belts</a>
+                                                <li><a href="category-man.html?item=Belts">Belts</a>
                                                 </li>
 												<!--
                                                 <li><a href="category.html">Hiking shoes</a>
@@ -217,11 +221,12 @@
                                         <div class="col-sm-6"> <!-- col-sm-3 is changed to col-sm-6 by Shang-->
                                             <h5>Clothing</h5>
                                             <ul>
-                                                <li><a href="category-lady.html">T-shirts</a>
+                                                <!--All href changed by rongjuncheng 9/08/2017-->
+                                                <li><a href="category-lady.html?item=T-shirts">T-shirts</a>
                                                 </li>
-                                                <li><a href="category-lady.html">Shirts</a>
+                                                <li><a href="category-lady.html?item=Shirts">Shirts</a>
                                                 </li>
-                                                <li><a href="category-lady.html">Pants</a>
+                                                <li><a href="category-lady.html?item=Pants">Pants</a>
                                                 </li>
 												<!--
                                                 <li><a href="category-lady.html">Accessories</a>
@@ -245,9 +250,9 @@
                                         <div class="col-sm-6"> <!-- col-sm-3 is changed to col-sm-6 by Shang-->
                                             <h5>Accessories</h5>
                                             <ul>
-                                                <li><a href="category-lady.html">Bags</a>
+                                                <li><a href="category-lady.html?item=Bags">Bags</a>
                                                 </li>
-                                                <li><a href="category-lady.html">Belts</a>
+                                                <li><a href="category-lady.html?item=Belts">Belts</a>
                                                 </li>
 												<!--
                                                 <li><a href="category.html">Hiking shoes</a>
@@ -432,28 +437,34 @@
                         <div class="panel-body">
                             <ul class="nav nav-pills nav-stacked category-menu">
                                 <li>
-                                    <a href="category-man.html">Men <span class="badge pull-right">12</span></a>
+                                    <a href="category-man.html">Men <span class="badge pull-right">13</span></a>
                                     <ul>
-                                        <li><a href="category-man.html">T-shirts</a>
+                                        <!--All href changed by rongjuncheng 9/08/2017-->
+                                        <li><a href="category-man.html?item=T-shirts">T-shirts</a>
                                         </li>
-                                        <li><a href="category-man.html">Shirts</a>
+                                        <li><a href="category-man.html?item=Shirts">Shirts</a>
                                         </li>
-                                        <li><a href="category-man.html">Pants</a>
+                                        <li><a href="category-man.html?item=Pants">Pants</a>
                                         </li>
-                                        <li><a href="category-man.html">Accessories</a>
+                                        <li><a href="category-man.html?item=Bags">Bags</a>
+                                        </li>
+                                        <li><a href="category-man.html?item=Belts">Belts</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="active">
-                                    <a href="category-lady.html">Ladies  <span class="badge pull-right">12</span></a>
+                                    <a href="category-lady.html">Ladies  <span class="badge pull-right">15</span></a>
                                     <ul>
-                                        <li><a href="category-lady.html">T-shirts</a>
+                                        <!--All href changed by rongjuncheng 9/08/2017-->
+                                        <li><a href="category-lady.html?item=T-shirts">T-shirts</a>
                                         </li>
-                                        <li><a href="category-lady.html">Shirts</a>
+                                        <li><a href="category-lady.html?item=Shirts">Shirts</a>
                                         </li>
-                                        <li><a href="category-lady.html">Pants</a>
+                                        <li><a href="category-lady.html?item=Pants">Pants</a>
                                         </li>
-                                        <li><a href="category-lady.html">Accessories</a>
+                                        <li><a href="category-lady.html?item=Bags">Bags</a>
+                                        </li>
+                                        <li><a href="category-lady.html?item=Belts">Belts</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -481,38 +492,38 @@
                     <div class="panel panel-default sidebar-menu">
 
                         <div class="panel-heading">
-                            <h3 class="panel-title">Brands <a class="btn btn-xs btn-danger pull-right" href="#"><i class="fa fa-times-circle"></i> Clear</a></h3>
+                            <h3 class="panel-title">Brands <a class="btn btn-xs btn-danger pull-right" onclick="clearCheck()"><i class="fa fa-times-circle"></i> Clear</a></h3>
+                            <!-- Add onclick event to clear button -->
                         </div>
 
                         <div class="panel-body">
 
                             <form>
                                 <div class="form-group">
-                                    <div class="checkbox">
+                                    <div class="checkbox" id="Armani_man"><!-- Add id to find by rongjunchen 8/8/2017 -->
                                         <label>
-                                            <input type="checkbox">Armani (10)
+                                            <input name="catalog" type="checkbox" value="Armani">Armani (10)
                                         </label>
                                     </div>
-                                    <div class="checkbox">
+                                    <div class="checkbox" id="Versace_man"><!-- Add id to find by rongjunchen 8/8/2017 -->
                                         <label>
-                                            <input type="checkbox">Versace (10)
+                                            <input name="catalog" type="checkbox" value="Versace">Versace (10)
                                         </label>
                                     </div>
-                                    <div class="checkbox">
+                                    <div class="checkbox" id="Carlo_Bruni_man"><!-- Add id to find by rongjunchen 8/8/2017 -->
                                         <label>
-                                            <input type="checkbox">Carlo Bruni (2)
+                                            <input name="catalog" type="checkbox" value="Carlo Bruni">Carlo Bruni (2)
                                         </label>
                                     </div>
-                                    <div class="checkbox">
+                                    <div class="checkbox" id="Jack_Honey_man"><!-- Add id to find by rongjunchen 8/8/2017 -->
                                         <label>
-                                            <input type="checkbox">Jack Honey (2)
+                                            <input name="catalog" type="checkbox" value="Jack Honey">Jack Honey (2)
                                         </label>
                                     </div>
                                 </div>
-
-                                <button class="btn btn-default btn-sm btn-primary"><i class="fa fa-pencil"></i> Apply</button>
-
                             </form>
+                            <!--Give the button a new function to respond the click event-->
+                            <button class="btn btn-default btn-sm btn-primary" onclick="catalogSort()"><i class="fa fa-pencil"></i> Apply</button>
 
                         </div>
                     </div>
@@ -536,24 +547,24 @@
 
                     <div class="box info-bar">
                         <div class="row">
-                            <div class="col-sm-12 col-md-4 products-showing">
-                                Showing <strong>6</strong> of <strong>12</strong> products
+                            <div class="col-sm-12 col-md-4 products-showing" id="displayView">
+                                <!-- All info deleted and use function to write when page load comment by rongjunchen 8/8/2017 -->
                             </div>
 
                             <div class="col-sm-12 col-md-8  products-number-sort">
                                 <div class="row">
                                     <form class="form-inline">
                                         <div class="col-md-6 col-sm-6">
-                                            <div class="products-number">
-                                                <strong>Show</strong>  <a href="#" class="btn btn-default btn-sm btn-primary">6</a>  <a href="#" class="btn btn-default btn-sm">12</a>  <a href="#" class="btn btn-default btn-sm">All</a> products
+                                            <div class="products-number" id="selectAmount">
+                                                <!-- All info deleted and use function to write when page load comment by rongjunchen 8/8/2017 -->
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-sm-6">
                                             <div class="products-sort-by">
                                                 <strong>Sort by</strong>
-                                                <select name="sort-by" class="form-control">
+                                                <select id="sortByPrice" name="sort-by" class="form-control" onchange="sortFromOption()"><!-- Add on change event -->
                                                     <option>Price: low-high</option>
-													<option>Price: high-low</option>
+                                                    <option>Price: high-low</option>
                                                     <!--<option>Sales first</option>-->
                                                 </select>
                                             </div>
@@ -564,235 +575,9 @@
                         </div>
                     </div>
 
-                    <div class="row products">
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product1.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product1_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product1.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3><a href="detail.html">Fur coat</a></h3>
-                                    <p class="price">$143.00</p>
-                                    <p class="buttons">
-                                        <a href="detail.html" class="btn btn-default">View detail</a>
-                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </p>
-                                </div>
-                                <!-- /.text -->
-                            </div>
-                            <!-- /.product -->
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product2_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product2.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3><a href="detail.html">White Blouse Armani</a></h3>
-                                    <p class="price"><del>$280</del> $143.00</p>
-                                    <p class="buttons">
-                                        <a href="detail.html" class="btn btn-default">View detail</a>
-                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </p>
-                                </div>
-                                <!-- /.text -->
-
-                                <div class="ribbon sale">
-                                    <div class="theribbon">SALE</div>
-                                    <div class="ribbon-background"></div>
-                                </div>
-                                <!-- /.ribbon -->
-
-                                <div class="ribbon new">
-                                    <div class="theribbon">NEW</div>
-                                    <div class="ribbon-background"></div>
-                                </div>
-                                <!-- /.ribbon -->
-
-                                <div class="ribbon gift">
-                                    <div class="theribbon">GIFT</div>
-                                    <div class="ribbon-background"></div>
-                                </div>
-                                <!-- /.ribbon -->
-                            </div>
-                            <!-- /.product -->
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product3.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product3_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product3.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
-                                    <p class="price">$143.00</p>
-                                    <p class="buttons">
-                                        <a href="detail.html" class="btn btn-default">View detail</a>
-                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </p>
-
-                                </div>
-                                <!-- /.text -->
-                            </div>
-                            <!-- /.product -->
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product3.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product3_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product3.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
-                                    <p class="price">$143.00</p>
-                                    <p class="buttons">
-                                        <a href="detail.html" class="btn btn-default">View detail</a>
-                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </p>
-
-                                </div>
-                                <!-- /.text -->
-                            </div>
-                            <!-- /.product -->
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product2_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product2.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3><a href="detail.html">White Blouse Versace</a></h3>
-                                    <p class="price">$143.00</p>
-                                    <p class="buttons">
-                                        <a href="detail.html" class="btn btn-default">View detail</a>
-                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </p>
-
-                                </div>
-                                <!-- /.text -->
-
-                                <div class="ribbon new">
-                                    <div class="theribbon">NEW</div>
-                                    <div class="ribbon-background"></div>
-                                </div>
-                                <!-- /.ribbon -->
-                            </div>
-                            <!-- /.product -->
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product1.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product1_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product1.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3><a href="detail.html">Fur coat</a></h3>
-                                    <p class="price">$143.00</p>
-                                    <p class="buttons">
-                                        <a href="detail.html" class="btn btn-default">View detail</a>
-                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </p>
-
-                                </div>
-                                <!-- /.text -->
-
-                                <div class="ribbon gift">
-                                    <div class="theribbon">GIFT</div>
-                                    <div class="ribbon-background"></div>
-                                </div>
-                                <!-- /.ribbon -->
-
-                            </div>
-                            <!-- /.product -->
-                        </div>
-                        <!-- /.col-md-4 -->
+                    <!--add an id to find this mark-->
+                    <div class="row products" id="productionCase">
+                        <!-- All info deleted and use function to write when page load comment by rongjunchen 8/8/2017 -->
                     </div>
                     <!-- /.products -->
 
@@ -804,21 +589,8 @@
                         </p>
 						commented by shang 04/07/2017 -->
 
-                        <ul class="pagination">
-                            <li><a href="#">&laquo;</a>
-                            </li>
-                            <li class="active"><a href="#">1</a>
-                            </li>
-                            <li><a href="#">2</a>
-                            </li>
-                            <li><a href="#">3</a>
-                            </li>
-                            <li><a href="#">4</a>
-                            </li>
-                            <li><a href="#">5</a>
-                            </li>
-                            <li><a href="#">&raquo;</a>
-                            </li>
+                        <ul id="pageAmountShow" class="pagination">
+                            <!-- All info deleted and use function to write when page load comment by rongjunchen 8/8/2017 -->
                         </ul>
                     </div>
 
@@ -873,25 +645,31 @@
                         <h5>Men</h5>
 
                         <ul>
-                            <li><a href="category-man.html">T-shirts</a>
+                            <!--All href changed by rongjuncheng 9/08/2017-->
+                            <li><a href="category-man.html?item=T-shirts">T-shirts</a>
                             </li>
-                            <li><a href="category-man.html">Shirts</a>
+                            <li><a href="category-man.html?item=Shirts">Shirts</a>
                             </li>
-							<li><a href="category-man.html">Pants</a>
+                            <li><a href="category-man.html?item=Pants">Pants</a>
                             </li>
-                            <li><a href="category-man.html">Accessories</a>
+                            <li><a href="category-man.html?item=Bags">Bags</a>
+                            </li>
+                            <li><a href="category-man.html?item=Belts">Belts</a>
                             </li>
                         </ul>
 
                         <h5>Ladies</h5>
                         <ul>
-                            <li><a href="category-lady.html">T-shirts</a>
+                            <!--All href changed by rongjuncheng 9/08/2017-->
+                            <li><a href="category-lady.html?item=T-shirts">T-shirts</a>
                             </li>
-                            <li><a href="category-lady.html">Shirts</a>
+                            <li><a href="category-lady.html?item=Shirts">Shirts</a>
                             </li>
-                            <li><a href="category-lady.html">Pants</a>
+                            <li><a href="category-lady.html?item=Pants">Pants</a>
                             </li>
-                            <li><a href="category-lady.html">Accessories</a>
+                            <li><a href="category-lady.html?item=Bags">Bags</a>
+                            </li>
+                            <li><a href="category-lady.html?item=Belts">Belts</a>
                             </li>
                         </ul>
 
@@ -987,7 +765,19 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/front.js"></script>
 
-
+    <!-- reday function to push the gender info and init the page-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            xmlLoad("ladies");
+            nowArray = productArray;
+            getSortMethod(productArray);
+            catalogFind();
+            updateBrandAmount();
+            //give the page show a defalt value and write page, this function call the writePage() function
+            changeDisplayAmount(displayType,pageNumber);
+        });
+    </script>
+    <!--End ready function-->
 
 
 

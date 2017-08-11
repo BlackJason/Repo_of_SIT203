@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <production>
+    <!-- Begin man-->
     <!--production T1 details-->
     <productionPlant>
         <id>1</id>
@@ -161,7 +162,7 @@
         <name>Carlo Bruni Waitom Regular Slim Fit Jeans Blue</name>
         <imageS>Carlo Bruni Waitom Regular Slim Fit Jeans Blue_S.jpg</imageS>
         <imageL>Carlo Bruni Waitom Regular Slim Fit Jeans Blue_L.jpg</imageL>
-        <brand>Jack Honey</brand>
+        <brand>Carlo Bruni</brand>
         <price>115</price>
         <details>Carlo Bruni Waitom Regular Slim Fit Jeans In An 11.5oz Deep Blue Denim, Intentional fading to typical stress points with intentional crease effect to the thighs, waistband and reverse of the knees</details>
         <material>100% Cotton</material>
@@ -173,7 +174,7 @@
     <!--production A1 details-->
     <productionPlant>
         <id>11</id>
-        <catalog>Bag</catalog>
+        <catalog>Bags</catalog>
         <sex>men</sex>
         <name>Armani Jeans Small Shoulder Bag Blue</name>
         <imageS>Armani Jeans Small Shoulder Bag Blue_S.jpg</imageS>
@@ -183,8 +184,299 @@
         <details>Armani Jeans Small Shoulder Bag in Blue, Large adjustable shoulder strap in black with the body of the bag in a blue woven canvas fabric.</details>
         <material>100% Polyester</material>
         <care>Hand wash</care>
-        <fit>The bag measures 8 inches in width and 8.5 inches in height</fit>
+        <fit>Regular fit</fit>
+        <size>The bag measures 8 inches in width and 8.5 inches in height</size>
+    </productionPlant>
+
+    <!--production A2 details-->
+    <productionPlant>
+        <id>12</id>
+        <catalog>Belts</catalog>
+        <sex>men</sex>
+        <name>Armani Exchange Reversible Belt Black</name>
+        <imageS>Armani Exchange Reversible Belt Black_S.jpg</imageS>
+        <imageL>Armani Exchange Reversible Belt Black_L.jpg</imageL>
+        <brand>Armani</brand>
+        <price>100</price>
+        <details>Armani Exchange Reversible Leather Belt In Black And Phantom Grey, A genuine leather belt strap with one side in black and the alternative side in phantom dark grey. Five holes at the squared end and a dark metal AX logo buckle. </details>
+        <material>100% Genuine Leather</material>
+        <care>Normal care</care>
+        <fit>Regular fit</fit>
+        <size>36” Waist</size>
+    </productionPlant>
+
+    <!--production A3 details-->
+    <productionPlant>
+        <id>13</id>
+        <catalog>Belts</catalog>
+        <sex>men</sex>
+        <name>Versace Jeans Reversible Leather Belt Black</name>
+        <imageS>Versace Jeans Reversible Leather Belt Black_S.jpg</imageS>
+        <imageL>Versace Jeans Reversible Leather Belt Black_L.jpg</imageL>
+        <brand>Versace</brand>
+        <price>70</price>
+        <details>Versace Jeans Reversible Leather Belt in Black And Blue, A square reversible silver coloured metal pin buckle featuring the signature Versace Jeans logo on the metal belt loop. The belt strap is in black saffiano leather on one side with the alternate side in a textured blue suede leather.</details>
+        <material>100% leather</material>
+        <care>Normal care</care>
+        <fit>Regular fit</fit>
+        <size>36” Waist</size>
+    </productionPlant>
+    <!--End man-->
+
+    <!--Begin lady-->
+    <!--production T1 details-->
+    <productionPlant>
+        <id>14</id>
+        <catalog>T-shirts</catalog>
+        <sex>ladies</sex>
+        <name>A|X WINGS LOGO TEE</name>
+        <imageS>AX WINGS LOGO TEE_S.jpg</imageS>
+        <imageL>AX WINGS LOGO TEE_L.jpg</imageL>
+        <brand>Armani</brand>
+        <price>50</price>
+        <details>Delicate wings evoke A|X's classic eagle insignia in a new way</details>
+        <material>100% Cotton</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
         <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production T2 details-->
+    <productionPlant>
+        <id>15</id>
+        <catalog>T-shirts</catalog>
+        <sex>ladies</sex>
+        <name>SEQUIN LOGO CREWNECK TEE</name>
+        <imageS>SEQUIN LOGO CREWNECK TEE_S.jpg</imageS>
+        <imageL>SEQUIN LOGO CREWNECK TEE_L.jpg</imageL>
+        <brand>Armani</brand>
+        <price>50</price>
+        <details>Our classic logo gets a glam update, studded in high-shine reflective sequins</details>
+        <material>100% Cotton</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production T3 details-->
+    <productionPlant>
+        <id>16</id>
+        <catalog>T-shirts</catalog>
+        <sex>ladies</sex>
+        <name>Versace Embroidered T-shirt</name>
+        <imageS>Versace Embroidered T-shirt_S.jpg</imageS>
+        <imageL>Versace Embroidered T-shirt_L.jpg</imageL>
+        <brand>Versace</brand>
+        <price>415</price>
+        <details>Embroidered in neon green, the designer's name serves as a bold announcement of the iconic house. Wear the buttoned-neck look with your favourite bomber jacket for downtown cool</details>
+        <material>90% viscose, 10% elastane</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production T4 details-->
+    <productionPlant>
+        <id>17</id>
+        <catalog>T-shirts</catalog>
+        <sex>ladies</sex>
+        <name>Versace Logo contrast top</name>
+        <imageS>Versace Logo contrast top_S.jpg</imageS>
+        <imageL>Versace Logo contrast top_L.jpg</imageL>
+        <brand>Versace</brand>
+        <price>1200</price>
+        <details>Make a vibrant statement with this top from Versace with its contrasting colour panels. The designer logo emblazoned on the front has a tactile feel that shows your love for Versace artfully</details>
+        <material>71% acetate, 29% viscose</material>
+        <care>Dry clean</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production S1 details-->
+    <productionPlant>
+        <id>18</id>
+        <catalog>Shirts</catalog>
+        <sex>ladies</sex>
+        <name>Armani Blue stretch cotton plain shirt</name>
+        <imageS>Armani Blue stretch cotton plain shirt_S.jpg</imageS>
+        <imageL>Armani Blue stretch cotton plain shirt_L.jpg</imageL>
+        <brand>Armani</brand>
+        <price>115</price>
+        <details>Blue stretch cotton plain shirt from Armani Jeans. Crafted from a high quality fabric, this piece delivers a soft touch to the skin whilst keeping your basic ensembles stylish</details>
+        <material>100% Cotton</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production S2 details-->
+    <productionPlant>
+        <id>19</id>
+        <catalog>Shirts</catalog>
+        <sex>ladies</sex>
+        <name>Armani Chambray Shirt</name>
+        <imageS>Armani Chambray Shirt_S.jpg</imageS>
+        <imageL>Armani Chambray Shirt_L.jpg</imageL>
+        <brand>Armani</brand>
+        <price>115</price>
+        <details>This Armani Jeans Chambray shirt is a luxurious alternative to a classic denim shirt. Crafted from a high quality fabric, this piece delivers a soft touch to the skin whilst keeping your basic ensembles stylish.</details>
+        <material>100% lyocell</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production S3 details-->
+    <productionPlant>
+        <id>20</id>
+        <catalog>Shirts</catalog>
+        <sex>ladies</sex>
+        <name>Versace Printed silk-twill shirt</name>
+        <imageS>Versace Printed silk-twill shirt_S.jpg</imageS>
+        <imageL>Versace Printed silk-twill shirt_L.jpg</imageL>
+        <brand>Versace</brand>
+        <price>1350</price>
+        <details>This silk-twill shirt is paneled with leopard spots through the front and zebra stripes at the back. It's finished with gold 'Medusa' buttons at the collar and cuffs and is intended for a slightly loose fit</details>
+        <material>100% silk</material>
+        <care>Dry clean</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production S4 details-->
+    <productionPlant>
+        <id>21</id>
+        <catalog>Shirts</catalog>
+        <sex>ladies</sex>
+        <name>Versace Baroccoflage print shirt</name>
+        <imageS>Versace Baroccoflage print shirt_S.jpg</imageS>
+        <imageL>Versace Baroccoflage print shirt_L.jpg</imageL>
+        <brand>Versace</brand>
+        <price>1450</price>
+        <details>Cut in Italy from multicoloured silk, the vibrant piece boasts a classic collar, long sleeves with button cuffs, a concealed front button placket, a loose-fitting flowy silhouette</details>
+        <material>100% silk</material>
+        <care>Dry clean</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production S4 details-->
+    <productionPlant>
+        <id>22</id>
+        <catalog>Shirts</catalog>
+        <sex>ladies</sex>
+        <name>Versace printed shirt</name>
+        <imageS>Versace printed shirt_S.jpg</imageS>
+        <imageL>Versace printed shirt_L.jpg</imageL>
+        <brand>Versace</brand>
+        <price>650</price>
+        <details>This multicoloured printed shirt is a prime example, fashioned in Italy from lustrous silk. It features a classic collared neckline, long sleeves with buttoned cuffs, a concealed front button fastening, a loose fit and a curved hemline</details>
+        <material>100% silk</material>
+        <care>Dry clean</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production P1 details-->
+    <productionPlant>
+        <id>23</id>
+        <catalog>Pants</catalog>
+        <sex>ladies</sex>
+        <name>Carlo Bruni Cream High Waisted Wide Leg pants</name>
+        <imageS>Carlo Bruni Cream High Waisted Wide Leg pants_S.jpg</imageS>
+        <imageL>Carlo Bruni Cream High Waisted Wide Leg pants_L.jpg</imageL>
+        <brand>Carlo Bruni</brand>
+        <price>65</price>
+        <details>With super flattering curve skimming fabric and tailoring detail. Wear with a crop top, shirt or bodysuit for a sophisticated feel. Length approx 115cm/45"</details>
+        <material>100% Cotton</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production P2 details-->
+    <productionPlant>
+        <id>24</id>
+        <catalog>Pants</catalog>
+        <sex>ladies</sex>
+        <name>Jack Honey loose fit cropped pants</name>
+        <imageS>Jack Honey loose fit cropped pants_S.jpg</imageS>
+        <imageL>Jack Honey loose fit cropped pants_L.jpg</imageL>
+        <brand>Jack Honey</brand>
+        <price>115</price>
+        <details>Beige loose fit cropped trousers</details>
+        <material>100% Cotton</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production P3 details-->
+    <productionPlant>
+        <id>25</id>
+        <catalog>Pants</catalog>
+        <sex>ladies</sex>
+        <name>Jack Honey striped flared trousers</name>
+        <imageS>Jack Honey striped flared trousers_S.jpg</imageS>
+        <imageL>Jack Honey striped flared trousers_L.jpg</imageL>
+        <brand>Jack Honey</brand>
+        <price>515</price>
+        <details>Black and brown striped flared trousers from Jack Honey</details>
+        <material>100% Viscose</material>
+        <care>Machine wash</care>
+        <fit>Regular fit</fit>
+        <size>The model (height 5'8" and chest 33") is wearing a size S</size>
+    </productionPlant>
+
+    <!--production A1 details-->
+    <productionPlant>
+        <id>26</id>
+        <catalog>Belts</catalog>
+        <sex>ladies</sex>
+        <name>Versace Medusa belt</name>
+        <imageS>Versace Medusa belt_S.jpg</imageS>
+        <imageL>Versace Medusa belt_L.jpg</imageL>
+        <brand>Versace</brand>
+        <price>666</price>
+        <details>Black calf leather Medusa belt from Versace featuring gold-tone hardware and an adjustable fit</details>
+        <material>100% Calf Leather</material>
+        <care>Normal care</care>
+        <fit>Regular fit</fit>
+        <size>36” Waist</size>
+    </productionPlant>
+
+    <!--production A2 details-->
+    <productionPlant>
+        <id>27</id>
+        <catalog>Bags</catalog>
+        <sex>ladies</sex>
+        <name>Armani Borsa Bag</name>
+        <imageS>Armani Borsa Bag_S.jpg</imageS>
+        <imageL>Armani Borsa Bag_L.jpg</imageL>
+        <brand>Armani</brand>
+        <price>666</price>
+        <details>The Borsa Shopping Bag from Armani Jeans is sleek and simple with its luxe leather-look shell, silver-toned hardware and elegant red lining</details>
+        <material>100% Calf Leather</material>
+        <care>Normal care</care>
+        <fit>Regular fit</fit>
+        <size>H28cm x W46cm x D8cm</size>
+    </productionPlant>
+
+    <!--production A2 details-->
+    <productionPlant>
+        <id>28</id>
+        <catalog>Bags</catalog>
+        <sex>ladies</sex>
+        <name>Carlo Bruni clutch </name>
+        <imageS>Carlo Bruni clutch_S.jpg</imageS>
+        <imageL>Carlo Bruni clutch_L.jpg</imageL>
+        <brand>Carlo Bruni</brand>
+        <price>1666</price>
+        <details>Black leather knuckle box clutch from Alexander McQueen featuring gold-tone hardware, an oblong body, crystal embellishments and a gold-tone stud detailing</details>
+        <material>50% Leather and 50% other fibres</material>
+        <care>Normal care</care>
+        <fit>Regular fit</fit>
+        <size>H7cm x W22cm x D4.5cm</size>
     </productionPlant>
 
 </production>

@@ -139,12 +139,12 @@
                                         <div class="col-sm-6"> <!-- col-sm-3 is changed to col-sm-6 by Shang-->
                                             <h5>Clothing</h5>
                                             <ul>
-                                                <li><a href="category-man.html">T-shirts</a>
+                                                <li><a href="category-man.html?item=T-shirts">T-shirts</a>
                                                 </li>
-                                                <li><a href="category-man.html">Shirts</a>
-                                                </li>												
-                                                <li><a href="category-man.html">Pants</a>
-                                                </li>												
+                                                <li><a href="category-man.html?item=Shirts">Shirts</a>
+                                                </li>
+                                                <li><a href="category-man.html?item=Pants">Pants</a>
+                                                </li>
                                                 <!--
 												<li><a href="category-man.html">Accessories</a>
                                                 </li>
@@ -167,9 +167,9 @@
                                         <div class="col-sm-6"> <!-- col-sm-3 is changed to col-sm-6 by Shang-->
                                             <h5>Accessories</h5>
                                             <ul>
-                                                <li><a href="category-man.html">Bags</a>
+                                                <li><a href="category-man.html?item=Bags">Bags</a>
                                                 </li>
-                                                <li><a href="category-man.html">Belts</a>
+                                                <li><a href="category-man.html?item=Belts">Belts</a>
                                                 </li>
 												<!--
                                                 <li><a href="category.html">Hiking shoes</a>
@@ -218,12 +218,13 @@
                                     <div class="row">
                                         <div class="col-sm-6"> <!-- col-sm-3 is changed to col-sm-6 by Shang-->
                                             <h5>Clothing</h5>
+                                            <!--All href changed by rongjuncheng 9/08/2017-->
                                             <ul>
-                                                <li><a href="category-lady.html">T-shirts</a>
+                                                <li><a href="category-lady.html?item=T-shirts">T-shirts</a>
                                                 </li>
-                                                <li><a href="category-lady.html">Shirts</a>
+                                                <li><a href="category-lady.html?item=Shirts">Shirts</a>
                                                 </li>
-                                                <li><a href="category-lady.html">Pants</a>
+                                                <li><a href="category-lady.html?item=Pants">Pants</a>
                                                 </li>
 												<!--
                                                 <li><a href="category-lady.html">Accessories</a>
@@ -246,10 +247,11 @@
                                         </div>  commented by Shang 03/07/2017-->
                                         <div class="col-sm-6"> <!-- col-sm-3 is changed to col-sm-6 by Shang-->
                                             <h5>Accessories</h5>
+                                            <!--All href changed by rongjuncheng 9/08/2017-->
                                             <ul>
-                                                <li><a href="category-lady.html">Bags</a>
+                                                <li><a href="category-lady.html?item=Bags">Bags</a>
                                                 </li>
-                                                <li><a href="category-lady.html">Belts</a>
+                                                <li><a href="category-lady.html?item=Belts">Belts</a>
                                                 </li>
 												<!--
                                                 <li><a href="category.html">Hiking shoes</a>
@@ -434,8 +436,9 @@
                         <div class="panel-body">
                             <ul class="nav nav-pills nav-stacked category-menu">
                                 <li class="active">
-                                    <a href="category-man.html">Men <span class="badge pull-right">12</span></a>
+                                    <a href="category-man.html">Men <span class="badge pull-right">13</span></a>
                                     <ul>
+                                        <!--All href changed by rongjuncheng 9/08/2017-->
                                         <li><a href="category-man.html?item=T-shirts">T-shirts</a>
                                         </li>
                                         <li><a href="category-man.html?item=Shirts">Shirts</a>
@@ -449,17 +452,21 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="category.html">Ladies  <span class="badge pull-right">12</span></a>
+                                    <a href="category-lady.html">Ladies  <span class="badge pull-right">15</span></a>
                                     <ul>
-                                        <li><a href="category-lady.html">T-shirts</a>
+                                        <!--All href changed by rongjuncheng 9/08/2017-->
+                                        <li><a href="category-lady.html?item=T-shirts">T-shirts</a>
                                         </li>
-                                        <li><a href="category-lady.html">Shirts</a>
+                                        <li><a href="category-lady.html?item=Shirts">Shirts</a>
                                         </li>
-                                        <li><a href="category-lady.html">Pants</a>
+                                        <li><a href="category-lady.html?item=Pants">Pants</a>
                                         </li>
-                                        <li><a href="category-lady.html">Accessories</a>
+                                        <li><a href="category-lady.html?item=Bags">Bags</a>
+                                        </li>
+                                        <li><a href="category-lady.html?item=Belts">Belts</a>
                                         </li>
                                     </ul>
+                                    <!-- Add page var transfer by rongjunchen 10/8/2017-->
                                 </li>
 								<!--
                                 <li>
@@ -487,33 +494,35 @@
                         <div class="panel-heading">
                             <h3 class="panel-title">Brands <a class="btn btn-xs btn-danger pull-right" onclick="clearCheck()"><i class="fa fa-times-circle"></i> Clear</a></h3>
                         </div>
+                        <!-- Add onclick event to clear button -->
 
                         <div class="panel-body">
 
                             <form>
                                 <div class="form-group">
-                                    <div class="checkbox">
+                                    <div class="checkbox" id="Armani_man"><!-- Add id to find by rongjunchen 8/8/2017 -->
                                         <label>
                                             <input name="catalog" type="checkbox" value="Armani">Armani (10)
                                         </label>
                                     </div>
-                                    <div class="checkbox">
+                                    <div class="checkbox" id="Versace_man"><!-- Add id to find by rongjunchen 8/8/2017 -->
                                         <label>
                                             <input name="catalog" type="checkbox" value="Versace">Versace (10)
                                         </label>
                                     </div>
-                                    <div class="checkbox">
+                                    <div class="checkbox" id="Carlo_Bruni_man"><!-- Add id to find by rongjunchen 8/8/2017 -->
                                         <label>
                                             <input name="catalog" type="checkbox" value="Carlo Bruni">Carlo Bruni (2)
                                         </label>
                                     </div>
-                                    <div class="checkbox">
+                                    <div class="checkbox" id="Jack_Honey_man"><!-- Add id to find by rongjunchen 8/8/2017 -->
                                         <label>
                                             <input name="catalog" type="checkbox" value="Jack Honey">Jack Honey (2)
                                         </label>
                                     </div>
                                 </div>
                             </form>
+                            <!--Give the button a new function to respond the click event-->
                             <button class="btn btn-default btn-sm btn-primary" onclick="catalogSort()"><i class="fa fa-pencil"></i> Apply</button>
                             <!--<button id="applyButton"> Apply</button>-->
 
@@ -539,22 +548,22 @@
 
                     <div class="box info-bar">
                         <div class="row">
-                            <div class="col-sm-12 col-md-4 products-showing">
-                                Showing <strong>6</strong> of <strong>12</strong> products
+                            <div class="col-sm-12 col-md-4 products-showing" id="displayView">
+                                <!-- All info deleted and use function to write when page load comment by rongjunchen 8/8/2017 -->
                             </div>
 
                             <div class="col-sm-12 col-md-8  products-number-sort">
                                 <div class="row">
                                     <form class="form-inline">
                                         <div class="col-md-6 col-sm-6">
-                                            <div class="products-number">
-                                                <strong>Show</strong>  <a href="#" class="btn btn-default btn-sm btn-primary">6</a>  <a href="#" class="btn btn-default btn-sm">12</a>  <a href="#" class="btn btn-default btn-sm">All</a> products
+                                            <div class="products-number" id="selectAmount">
+                                                <!-- All info deleted and use function to write when page load comment by rongjunchen 8/8/2017 -->
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-sm-6">
                                             <div class="products-sort-by">
                                                 <strong>Sort by</strong>
-                                                <select id="sortByPrice" name="sort-by" class="form-control" onchange="sortFromOption()">
+                                                <select id="sortByPrice" name="sort-by" class="form-control" onchange="sortFromOption()"><!-- Add on change event -->
                                                     <option>Price: low-high</option>
 													<option>Price: high-low</option>
                                                     <!--<option>Sales first</option>-->
@@ -569,7 +578,7 @@
 
                     <!--add an id to find this mark-->
                     <div class="row products" id="productionCase">
-                        <!-- /.col-md-4 -->
+                        <!-- All info deleted and use function to write when page load comment by rongjunchen 8/8/2017 -->
                     </div>
                     <!-- /.products -->
 
@@ -581,21 +590,8 @@
                         </p>
 						 end of comment -->
 
-                        <ul class="pagination">
-                            <li><a href="#">&laquo;</a>
-                            </li>
-                            <li class="active"><a href="#">1</a>
-                            </li>
-                            <li><a href="#">2</a>
-                            </li>
-                            <li><a href="#">3</a>
-                            </li>
-                            <li><a href="#">4</a>
-                            </li>
-                            <li><a href="#">5</a>
-                            </li>
-                            <li><a href="#">&raquo;</a>
-                            </li>
+                        <ul id="pageAmountShow" class="pagination">
+                            <!-- All info deleted and use function to write when page load comment by rongjunchen 8/8/2017 -->
                         </ul>
                     </div>
 
@@ -654,23 +650,29 @@
                             </li>
                             <li><a href="category-man.html?item=Shirts">Shirts</a>
                             </li>
-							<li><a href="category-man.html">Pants</a>
+							<li><a href="category-man.html?item=Pants">Pants</a>
                             </li>
-                            <li><a href="category-man.html">Accessories</a>
+                            <li><a href="category-man.html?item=Bags">Bags</a>
+                            </li>
+                            <li><a href="category-man.html?item=Belts">Belts</a>
                             </li>
                         </ul>
+                        <!-- Add page var transfer by rongjunchen 10/8/2017-->
 
                         <h5>Ladies</h5>
                         <ul>
-                            <li><a href="category-lady.html">T-shirts</a>
+                            <li><a href="category-lady.html?item=T-shirts">T-shirts</a>
                             </li>
-                            <li><a href="category-lady.html">Shirts</a>
+                            <li><a href="category-lady.html?item=Shirts">Shirts</a>
                             </li>
-                            <li><a href="category-lady.html">Pants</a>
+                            <li><a href="category-lady.html?item=Pants">Pants</a>
                             </li>
-                            <li><a href="category-lady.html">Accessories</a>
+                            <li><a href="category-lady.html?item=Bags">Bags</a>
+                            </li>
+                            <li><a href="category-lady.html?item=Belts">Belts</a>
                             </li>
                         </ul>
+                        <!-- Add page var transfer by rongjunchen 10/8/2017-->
 
                         <hr class="hidden-md hidden-lg">
 
@@ -764,6 +766,19 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/front.js"></script>
 
+    <!-- reday function to push the gender info and init the page-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            xmlLoad("men");
+            nowArray = productArray;
+            getSortMethod(productArray);
+            catalogFind();
+            updateBrandAmount();
+            //give the page show a defalt value and write page, this function call the writePage() function
+            changeDisplayAmount(displayType,pageNumber);
+        });
+    </script>
+    <!--End ready function-->
 
 
 
